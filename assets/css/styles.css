@@ -481,12 +481,12 @@ img{
 }
 
 /* For tall screens on mobiles y desktop*/
-@media screen and (min-height: 721px) {
+@media screen and (min-height: 1721px) {
     .home__container {
-        height: 640px;
+        height: 1640px;
     }
     .home__img {
-        width: 500px;
+        width: 1500px;
         right: 24%;
     }
 }
