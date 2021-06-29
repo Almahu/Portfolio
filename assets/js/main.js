@@ -51,26 +51,26 @@ const sr = ScrollReveal({
 
 /*SCROLL HOME*/
 sr.reveal('.home__title', {})
-sr.reveal('.home__scroll', {delay: 150})
-sr.reveal('.home__img', {origin:'right', delay: 150})
+sr.reveal('.home__scroll', {delay: 100})
+sr.reveal('.home__img', {origin:'right', delay: 100})
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img', {delay: 500})
-sr.reveal('.about__subtitle', {delay: 300})
-sr.reveal('.about__profession', {delay: 400})
-sr.reveal('.about__text', {delay: 500})
-sr.reveal('.about__social-icon', {delay: 600, interval: 200})
+sr.reveal('.about__img', {delay: 100})
+sr.reveal('.about__subtitle', {delay: 70})
+sr.reveal('.about__profession', {delay: 90})
+sr.reveal('.about__text', {delay: 120})
+sr.reveal('.about__social-icon', {delay: 120, interval: 50})
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
-sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
-sr.reveal('.skills__img', {delay: 400})
+sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 50})
+sr.reveal('.skills__img', {delay: 120})
 
 /*SCROLL PORTFOLIO*/
-sr.reveal('.portfolio__img', {interval: 200})
+sr.reveal('.portfolio__img', {interval: 50 , delay: 100}})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
-sr.reveal('.contact__text', {interval: 200})
-sr.reveal('.contact__input', {delay: 400})
-sr.reveal('.contact__button', {delay: 600})
+sr.reveal('.contact__text', {interval: 50})
+sr.reveal('.contact__input', {delay: 120})
+sr.reveal('.contact__button', {delay: 160})
