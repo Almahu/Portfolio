@@ -52,14 +52,14 @@ const sr = ScrollReveal({
 /*SCROLL HOME*/
 sr.reveal('.home__title', {})
 sr.reveal('.home__scroll', {delay: 150})
-sr.reveal('.home__img', {origin:'right', delay: 150})
+sr.reveal('.home__img', {origin:'right', delay: 250})
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img', {delay: 100})
-sr.reveal('.about__subtitle', {delay: 70})
-sr.reveal('.about__profession', {delay: 90})
-sr.reveal('.about__text', {delay: 120})
-sr.reveal('.about__social-icon', {delay: 120, interval: 50})
+sr.reveal('.about__img', {delay: 250})
+sr.reveal('.about__subtitle', {delay: 150})
+sr.reveal('.about__profession', {delay: 200})
+sr.reveal('.about__text', {delay: 250})
+sr.reveal('.about__social-icon', {delay: 300, interval: 200})
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle', {})
