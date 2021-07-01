@@ -67,10 +67,10 @@ sr.reveal('.skills__name', {distance: '20px', delay: 50, interval: 100})
 sr.reveal('.skills__img', {delay: 300})
 
 /*SCROLL PORTFOLIO*/
-sr.reveal('.portfolio__img', {interval: 200})
+sr.reveal('.portfolio__img', {interval: 50})
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__subtitle', {})
-sr.reveal('.contact__text', {interval: 200})
-sr.reveal('.contact__input', {delay: 300})
-sr.reveal('.contact__button', {delay: 400})
+sr.reveal('.contact__text', {interval: 100})
+sr.reveal('.contact__input', {delay: 200})
+sr.reveal('.contact__button', {delay: 300})
